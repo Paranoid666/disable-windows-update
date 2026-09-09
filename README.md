@@ -16,8 +16,8 @@
 
 双击运行 (会自动请求管理员权限,UAC 弹窗点「是」):
 
-- `Disable-WindowsUpdate.bat` — 永久关闭更新
-- `Enable-WindowsUpdate.bat` — 恢复系统默认
+- `scripts/Disable-WindowsUpdate.bat` — 永久关闭更新
+- `scripts/Enable-WindowsUpdate.bat` — 恢复系统默认
 
 ## 备份位置
 
@@ -28,4 +28,4 @@ C:\ProgramData\WindowsUpdate_Backup\
 ```
 
 > ⚠️ 关闭更新后系统将不再接收安全补丁与驱动更新,长期使用存在安全风险。
-> 需要更新时请先运行 `Enable-WindowsUpdate.bat` 恢复。
+> 需要更新时请先运行 `scripts/Enable-WindowsUpdate.bat` 恢复。
